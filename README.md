@@ -20,7 +20,7 @@ Print the characters and its huffman code.
 ## Program:
 ```
 # Get the input String
-string = 'from robomaster import robot'
+string = '212221230110 Sudharshna Lakshmi S'
 class NodeTree(object):
     def __init__(self, left=None, right=None): 
         self.left = left
@@ -51,6 +51,7 @@ for c in string:
         freq[c] = 1
 freq = sorted(freq.items(), key=lambda x: x[1], reverse=True)
 nodes=freq
+print(nodes)
 
 # Calculate frequency of occurrence
 while len(nodes)>1:
@@ -69,8 +70,9 @@ for (char, frequency) in freq:
     print('%-4r|%12s'%(char,huffmanCode[char]))
 ```
 ## Output:
-### Print the characters and its huffmancode
+### Frequency of Occurrence of Character
 ![](1.png)
-
+### Print the characters and its huffmancode
+![](2.png)
 ## Result
 Thus the huffman coding was implemented to compress the data using python programming.
