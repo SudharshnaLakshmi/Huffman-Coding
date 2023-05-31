@@ -6,7 +6,7 @@ To implement Huffman coding to compress the data using Python.
 1. Anaconda - Python 3.7
 
 ## Algorithm:
-#### Step 1:
+### Step 1:
 Get the input string.
 ### Step 2:
 Create the required tree nodes.
